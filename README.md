@@ -5,7 +5,7 @@ Este projeto é uma aplicação web para uma cafeteria, o projeto permite que os
 ## 🚀 Funcionalidades
 
 - Visualizar Produtos: Exibe uma lista de produtos (cafés e pães) no frontend.
-- Adicionar ao Carrinh*: Os usuários podem adicionar itens ao carrinho.
+- Adicionar ao Carrinho: Os usuários podem adicionar itens ao carrinho.
 - Carrinho de Compras: O usuário pode visualizar o carrinho de compras e o total da compra.
 - Cadastro de Produtos: Administração para cadastrar novos produtos de café e pães.
 - Conexão com Banco de Dados: Armazenamento de produtos e pedidos em um banco de dados MySQL.
