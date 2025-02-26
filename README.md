@@ -1,6 +1,6 @@
 # Cafeteria Online - Projeto Full Stack
 
-Este é o projeto *Cafeteria Online, uma aplicação web para uma cafeteria. Ele utiliza **Spring Boot* no backend, *MySQL* para o banco de dados, e *HTML/CSS/JavaScript* para o frontend. O projeto permite que os usuários visualizem os produtos da cafeteria, adicionem ao carrinho e visualizem o total da compra.
+Este é uma aplicação web para uma cafeteria. Ele utiliza **Spring Boot* no backend, *MySQL* para o banco de dados, e *HTML/CSS/JavaScript* para o frontend. O projeto permite que os usuários visualizem os produtos da cafeteria, adicionem ao carrinho e visualizem o total da compra.
 
 ## 🚀 Funcionalidades
 
