@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria - Produtos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="titulo-borda">Café de Qualidade, para você!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produtos">
+            <h2>Nossos Cafés</h2>
+            <div class="produto">
+                <img src="imagens/cafe1.jpg" alt="Café Expresso">
+                <h3>Café Expresso</h3>
+                <p>R$ 5,00</p>
+                <button onclick="adicionarAoCarrinho('Café Expresso', 5.00)">Adicionar</button>
+            </div>
+            
+            <div class="produto">
+                <img src="imagens/cafe2.jpg" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>R$ 11,00</p>
+                <button onclick="adicionarAoCarrinho('Cappuccino', 7.00)">Adicionar</button>
+            </div>
+    
+            <div class="produto">
+                <img src="imagens/cafe3.jpg" alt="Chocolate Quente">
+                <h3>Chocolate Quente</h3>
+                <p>R$ 12,00</p>
+                <button onclick="adicionarAoCarrinho('Chocolate Quente', 12.00)">Adicionar</button>
+            </div>
+    
+            <div class="produto">
+                <img src="imagens/cafe4.jpg" alt="Latte">
+                <h3>Latte</h3>
+                <p>R$ 8,00</p>
+                <button onclick="adicionarAoCarrinho('Latte', 8.00)">Adicionar</button>
+            </div>
+    
+            <div class="produto">
+                <img src="imagens/cafe5.jpg" alt="Frapê">
+                <h3>Frapê</h3>
+                <p>R$ 15,00</p>
+                <button onclick="adicionarAoCarrinho('Frapê', 15.00)">Adicionar</button>
+            </div>
+    
+            <div class="produto">
+                <img src="imagens/cafe6.jpg" alt="Mocca">
+                <h3>Mocca</h3>
+                <p>R$ 12,00</p>
+                <button onclick="adicionarAoCarrinho('Mocca', 12.00)">Adicionar</button>
+            </div>
+    
+            <h2>Nossos Pães</h2>
+            <div class="produto">
+                <img src="imagens/pao1.jpg" alt="Ciabatta">
+                <h3>Ciabatta</h3>
+                <p>R$ 8,00</p>
+                <button onclick="adicionarAoCarrinho('Ciabatta', 8.00)">Adicionar</button>
+            </div>
+            
+            <div class="produto">
+                <img src="imagens/pao2.jpg" alt="Baguete">
+                <h3>Baguete</h3>
+                <p>R$ 6,00</p>
+                <button onclick="adicionarAoCarrinho('Baguete', 6.00)">Adicionar</button>
+            </div>
+    
+            <div class="produto">
+                <img src="imagens/pao3.jpg" alt="Pão Multigrãos">
+                <h3>Pão Multigrãos</h3>
+                <p>R$ 9,00</p>
+                <button onclick="adicionarAoCarrinho('Pão Multigrãos', 9.00)">Adicionar</button>
+            </div>
+    
+            <div class="produto">
+                <img src="imagens/pao4.jpg" alt="Brioche">
+                <h3>Brioche</h3>
+                <p>R$ 10,00</p>
+                <button onclick="adicionarAoCarrinho('Brioche', 10.00)">Adicionar</button>
+            </div>
+    
+            <div class="produto">
+                <img src="imagens/pao5.jpg" alt="Pão de Queijo">
+                <h3>Pão de Queijo</h3>
+                <p>R$ 6,00</p>
+                <button onclick="adicionarAoCarrinho('Pão de Queijo', 6.00)">Adicionar</button>
+            </div>
+    
+            <div class="produto">
+                <img src="imagens/pao6.jpg" alt="Croissant">
+                <h3>Croissant</h3>
+                <p>R$ 17,00</p>
+                <button onclick="adicionarAoCarrinho('Croissant', 17.00)">Adicionar</button>
+            </div>
+    
+        </section>
+        
+
+        </section>
+        
+        <section id="carrinho">
+            <h2>Carrinho</h2>
+            <ul id="lista-carrinho"></ul>
+            <p>Total: R$ <span id="total">0.00</span></p>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2025 - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

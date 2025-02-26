@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.titulo-borda {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em; 
+    color: #fcfbfa;
+    text-align: center;
+    padding: 20px 30px; 
+    border: 3px solid #d4a57b; 
+    border-radius: 15px;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px; 
+    max-width: 40%;
+    margin: 40px auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.titulo-borda:hover {
+    transform: scale(1.1); 
+    background: linear-gradient(135deg, #d4a57b, #6f4e37);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.4); 
+}
+
+header {
+    background-color: #6f4e37;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+#banner {
+    background: url('imagens/banner.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 200px 30px;
+    color: white;
+    text-align: center;
+}
+
+#banner .banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#banner h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+#banner p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn-banner {
+    padding: 10px 20px;
+    background-color: #6f4e37;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.btn-banner:hover {
+    background-color: #52382b;
+}
+
+
+.produto {
+    display: inline-block;
+    background-color: #fff; 
+    box-shadow: 0px 4px 10px gray; 
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+.produto img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    padding: 12px 20px; 
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #52382b;
+}
+
+#carrinho {
+    position: fixed; 
+    right: 30px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    background-color: #fff; 
+    border: 2px solid #6f4e37; 
+    border-radius: 8px; 
+    padding: 20px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+    width: 250px;
+    max-height: 90vh;
+    overflow: auto;
+}
+
+#carrinho h2 {
+    font-size: 1.7em; 
+    color: #6f4e37; 
+    margin-bottom: 10px;
+}
+
+#carrinho ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#carrinho ul li {
+    margin-bottom: 8px; 
+}
+
+#carrinho p {
+    font-size: 1.2em; 
+    color: #6f4e37; 
+    font-weight: bold; 
+}
+
+#carrinho span {
+    font-size: 1.5em; 
+    color: #d4a57b; 
+}
+
+.rodape {
+    background-color: #6f4e37; 
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
+    bottom: 0; 
+    width: 100%; 
+    font-size: 1em; 
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.rodape p {
+    margin: 0; 
+}
+
+@media (max-width: 768px) {
+    .titulo-borda {
+        font-size: 2.5em; 
+        max-width: 80%; 
+    }
+
+    .produto {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+
+    .produto img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    #carrinho {
+        width: 200px; 
+    }
+}
